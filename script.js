@@ -140,6 +140,14 @@ document.getElementById("task-btn-6").addEventListener("click", function () {
   }
 });
 
-document.getElementById("activity-clear-btn").addEventListener("click", function(){
-  activityLog.innerHTML = "";
-})
+document
+  .getElementById("activity-clear-btn")
+  .addEventListener("click", function () {
+    activityLog.innerHTML = "";
+  });
+
+  document
+  .getElementById("discover-new-btn")
+  .addEventListener("click", function () {
+    window.location.href = "question.html";
+  });

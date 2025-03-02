@@ -7,3 +7,13 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+
+/* .task-btn{
+    opacity: 0.5;
+} */
+
+.activity-msg {
+    background-color: #F4F7FF;
+    padding: 10px;
+    border-radius: 8px;
+}

@@ -149,5 +149,5 @@ document
   document
   .getElementById("discover-new-btn")
   .addEventListener("click", function () {
-    window.location.href = "question.html";
+    window.location.href = "./question.html";
   });

@@ -35,22 +35,22 @@
             <h3 class="text-3xl">Dev<span class="font-bold">Board</span></h3>
           </div>
 
-          <div class="flex items-center gap-6">
+          <div class="flex items-center gap-0 md:gap-6">
             <div class="flex gap-2 bg-[#F4F7FF] px-4 py-2 rounded-3xl">
               <div><img src="assets/checkbox.png" alt="" /></div>
               <p id="total-task" class="text-2xl font-bold">23</p>
             </div>
-            <button><img id="theme" src="assets/theme-btn.png" alt="" /></button>
+            <button><img class="theme-btn" id="theme" src="assets/theme-btn.png" alt="" /></button>
           </div>
         </nav>
       </header>
 
-      <main class="flex min-h-screen gap-5">
-        <section class="w-9/12 p-4 bg-white rounded-lg">
+      <main class="flex flex-col-reverse min-h-screen gap-5 md:flex-row">
+        <section class="w-full p-4 bg-white rounded-lg md:w-9/12">
           <header>
-            <div class="grid grid-cols-4 gap-4">
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-4">
               <div
-                class="bg-[#F4F7FF] col-span-1 rounded-lg p-4 flex justify-evenly items-center"
+                class="bg-[#F4F7FF] rounded-lg p-4 flex justify-evenly items-center"
               >
                 <div class="p-4 bg-white rounded-full">
                   <img width="25" src="assets/checkbox.png" alt="" />
@@ -62,7 +62,7 @@
               </div>
               <div
                 id="discover-new-btn"
-                class="bg-gradient-to-r to-[#9BA8F8] task-btn from-[#3752FD] col-span-2 rounded-lg p-4 gap-4 flex justify-between items-center"
+                class="bg-gradient-to-r to-[#9BA8F8] task-btn from-[#3752FD] md:col-span-2 rounded-lg p-4 gap-4 flex justify-between items-center"
               >
                 <img src="assets/board.png" alt="" />
                 <p class="text-lg text-white mr-28">
@@ -70,7 +70,7 @@
                 </p>
               </div>
               <div
-                class="bg-[#F4F7FF] col-span-1 p-4 gap-4 rounded-lg flex justify-evenly items-center"
+                class="bg-[#F4F7FF] p-4 gap-4 rounded-lg flex justify-evenly items-center"
               >
                 <div class="p-4 bg-white rounded-full">
                   <img width="35" src="assets/calender.png" alt="" />
@@ -81,7 +81,7 @@
           </header>
 
           <article class="mt-4">
-            <div class="grid grid-cols-3 gap-4">
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
 
               <div class="flex flex-col bg-[#F4F7FF] p-4 rounded-lg gap-4">
                 <div><button class="px-4 py-2 bg-white rounded-lg">ShopEase</button></div>
@@ -201,7 +201,7 @@
           </article>
         </section>
         <section
-          class="flex flex-col items-center w-3/12 p-4 bg-white rounded-lg"
+          class="flex flex-col items-center w-full p-4 bg-white rounded-lg md:w-3/12"
         >
           <div class="flex items-center gap-4 text-lg">
             <div><img src="assets/activity.png" alt=""></div>
